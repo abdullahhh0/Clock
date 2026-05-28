@@ -19,7 +19,6 @@ A modern **World Clock Web App** built with HTML, CSS, JavaScript, and Bootstrap
 - ⚡ Smooth Clock Animations
 - 🎨 Modern UI Design
 
----
 
 ## 🛠️ Technologies Used
 
@@ -28,7 +27,6 @@ A modern **World Clock Web App** built with HTML, CSS, JavaScript, and Bootstrap
 - JavaScript
 - Bootstrap 5
 
----
 
 ## 📁 Project Structure
 
