@@ -40,7 +40,6 @@ Clock/
 ├── index.html
 ├── style.css
 ├── clock.js
-├── preview.png
 └── README.md
 ```
 
