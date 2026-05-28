@@ -2,13 +2,11 @@
 
 A modern **World Clock Web App** built with HTML, CSS, JavaScript, and Bootstrap — featuring both Analog & Digital clocks with multi-country support, search functionality, and dark/light themes.
 
----
 
 ## 🌐 Live Demo
 
 🔗 https://abdullahhh0.github.io/Clock/
 
----
 
 ## ✨ Features
 
