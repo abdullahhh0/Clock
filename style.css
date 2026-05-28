@@ -1,0 +1,130 @@
+body {
+  min-height: 100vh;
+  transition: 0.4s;
+}
+
+/* GLASS CARD */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* CLOCK */
+
+#clock-face {
+
+  width: 280px;
+  height: 280px;
+
+  border: 10px solid black;
+
+  border-radius: 50%;
+
+  position: relative;
+
+  margin: 40px auto;
+
+  background: rgba(255,255,255,0.08);
+
+  box-shadow:
+    0 0 30px rgba(0,0,0,0.4),
+    inset 0 0 20px rgba(255,255,255,0.1);
+}
+
+/* CENTER DOT */
+
+#clock-face::after {
+
+  content: "";
+
+  width: 18px;
+  height: 18px;
+
+  background: white;
+
+  border-radius: 50%;
+
+  position: absolute;
+
+  top: 47%;
+  left: 47%;
+
+  z-index: 10;
+}
+
+/* HANDS */
+
+#second-hand,
+#minute-hand,
+#hour-hand {
+
+  position: absolute;
+
+  bottom: 50%;
+  left: 50%;
+
+  transform-origin: bottom;
+
+  border-radius: 10px;
+}
+
+/* SECOND */
+
+#second-hand {
+
+  width: 2px;
+  height: 110px;
+
+  background: red;
+}
+
+/* MINUTE */
+
+#minute-hand {
+
+  width: 5px;
+  height: 90px;
+
+  background: cyan;
+}
+
+/* HOUR */
+
+#hour-hand {
+
+  width: 8px;
+  height: 65px;
+
+  background: yellow;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 576px){
+
+  #clock-face{
+
+    width: 220px;
+    height: 220px;
+  }
+
+  #second-hand{
+
+    height: 85px;
+  }
+
+  #minute-hand{
+
+    height: 70px;
+  }
+
+  #hour-hand{
+
+    height: 50px;
+  }
+}
